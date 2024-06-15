@@ -1,0 +1,59 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.sidebar h1, .sidebar form 
+{
+    padding: 15px;
+}
+.card
+{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.book-item
+{
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 7px;
+    line-height: 1.2;
+    height: 170px;
+    width: 200px
+}
+#form div
+{
+    padding: 4px;
+}
+.book-list
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sidebar
+{
+    color: whitesmoke;
+    height: 100vh;
+    background-color: #003135;
+    line-height: 2;
+}
+.content
+{
+    background-color: #024950;
+    color: whitesmoke;
+    height: 100vh;
+    padding: 15px;
+}
+.book-list
+{
+    color: black;
+}
